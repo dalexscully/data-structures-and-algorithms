@@ -78,13 +78,15 @@ Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
 const addValues = (arr, value) => {
-  let newArr =[];
-  arr
+  arr.push(value);
 
 }
 
 const addNumbers = (num, arr, times, callback) => {
-  // Solution code here...
+  for(let i = 0; i < times; i++){
+    callback(arr, num);
+  }
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -108,7 +110,13 @@ This function should use forEach to populate your grocery list based on the stor
 ------------------------------------------------------------------------------------------------ */
 
 const createList = (availableItems) => {
-  // Solution code here...
+  const newArr = [];
+  availableItems.forEach(element => {
+    if(element.available === true){
+      newArr.push(element.name);
+    }
+  })
+  return newArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
