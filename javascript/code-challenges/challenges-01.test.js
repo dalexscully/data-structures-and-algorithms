@@ -32,6 +32,7 @@ console.log(addExclamation);
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
 
+
 Write a function named `allUpperCase` that takes an array of strings, and returns a new array of the strings converted to upper case.
 
 Use `forEach` to loop over the input array. The modified strings should each be added into a local array. Return that local array.
@@ -47,7 +48,6 @@ console.log(allUpperCase);
 CHALLENGE 4
 
 Write a function named `greeting` that takes in a single string and returns the string in all uppercase letters, and followed by an "!".
-
 Then, write a function named `speaker` that takes in an array of strings and a callback function.
 
 Use `forEach` to build a new array of strings, each string modified by the callback. Return the new array.
@@ -74,8 +74,6 @@ Then, write a function named addNumbers that takes in four arguments:
   - The number of times the number should be added
   - A callback function to use to add the numbers to the array (Hint: you already defined it)
 
-Within the addNumbers function, invoke the callback function as many times as necessary, based on the third argument of the addNumbers function.
-
 Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
@@ -83,15 +81,19 @@ const addValues = (arr, value) => {
   let newArr =[];
   arr
 
+}
+
 const addNumbers = (num, arr, times, callback) => {
   // Solution code here...
 };
 
 /* ------------------------------------------------------------------------------------------------
 
+
 CHALLENGE 6
 
 Write a function named createList that takes in an array of the current store intentory.
+
 
 The inventory is formatted like this:
 [
@@ -114,6 +116,7 @@ STRETCH - CHALLENGE 7
 
 Write a function named fizzbuzz that takes in an array of numbers.
 
+
 Iterate over the array using forEach to determine the output based on several rules:
   - If a number is divisible by 3, add the word "Fizz" to the output array.
   - If the number is divisible by 5, add the word "Buzz" to the output array.
@@ -130,11 +133,13 @@ const fizzbuzz = (arr) => {
 /* ------------------------------------------------------------------------------------------------
 TESTS
 
+
 All the code below will verify that your functions are working to solve the challenges.
 
 DO NOT CHANGE any of the below code.
 
 Run your tests from the console: jest challenges-01.test.js
+
 
 ------------------------------------------------------------------------------------------------ */
 
@@ -186,3 +191,4 @@ xdescribe('Testing challenge 7', () => {
     expect(fizzbuzz(inputs).length).toStrictEqual(16);
   });
 });
+
