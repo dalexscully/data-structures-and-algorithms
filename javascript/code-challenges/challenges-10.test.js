@@ -130,16 +130,13 @@ const errands = [
 ];
 
 const howManyTreats = (arr) => {
-  return arr.reduce((acc, value) =>{
-    if (value.store === 'pet store') {
-      value.items.forEach(item => {
-        if (item.name === 'Treats') {
-          acc = item.quantity;
-        }
-      });
-    }
-    return acc
-  }, o);
+  let store = arr.find(obj => {
+    return obj.store === 'Pet store';
+  });
+  let items =  store.items.find(obj => {
+    return obj.name === 'Treats';
+  });
+  return items.quantity;
 };
 
 /* ------------------------------------------------------------------------------------------------
