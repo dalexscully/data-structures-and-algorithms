@@ -47,9 +47,61 @@ class LinkedList:
         new_str += "NULL"
         return new_str
 
+    def append(self, value):
 
-class TargetError:
-    pass
+        # adds a new node with the given value to the end of the list
+
+        current = self.head
+        final_node = Node(value)
+        if current is None:
+            current = Node(value)
+        else:
+            current = self.head
+            while current.next:
+                current = current.next
+            current.next = final_node
+
+    def insert_before(self, search_value, new_value):
+        # adds a new node with the given new value immediately before the first node that has the value specified
+        if self.head is None:
+            raise TargetError("Empty list")
+
+        if not self.includes(search_value):
+            raise TargetError('Value not found')
+
+        if self.head.value is search_value:
+            node = Node(new_value, self.head)
+            self.head = node
+        else:
+            current = self.head
+            while current:
+                if current.next.value is search_value:
+                    node = Node(new_value, current.next)
+                    current.next = node
+                    break
+                else:
+                    current = current.next
+
+    def insert_after(self, search_value, new_value):
+        # adds a new node with the given new value immediately after the first node that has the value specified
+        if self.head is None:
+            raise TargetError("Empty list")
+        if not self.includes(search_value):
+            raise TargetError("Value not found")
+
+        current = self.head
+        while current:
+            if current.value is search_value:
+                node = Node(new_value, current.next)
+                current.next = node
+                break
+            else:
+                current = current.next
+
+
+class TargetError(Exception):
+    def __init__(self, message):
+        self.message = message
 
 
 if __name__ == '__main__':
@@ -57,8 +109,9 @@ if __name__ == '__main__':
     linked_list.insert(1)
     linked_list.insert(2)
     linked_list.insert(3)
-    linked_list.insert(4)
+    linked_list.append(4)
     print(linked_list.includes(4))
     print(linked_list.__str__())
     print(linked_list)
+
 
