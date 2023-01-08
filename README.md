@@ -34,3 +34,4 @@ To run your tests
 - [Stack Queue Pseudo](python/docs/stack_and_queue/README.md)
 - [Stack Queue Animal Shelter](python/docs/stack_queue_animal_shelter/README.md)
 - [stack queue brackets](python/docs/stack_queue_brackets/README.md)
+- [Binary Tree and BST Implementation](python/docs/trees/README.md)
