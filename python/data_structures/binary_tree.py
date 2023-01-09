@@ -70,6 +70,18 @@ class BinaryTree:
 
         return nodes
 
+    def find_maximum_value(self):
+        nodes = self.pre_order()
+        print(nodes)
+        max_val = 0
+
+        for elem in nodes:
+            if type(elem) is int or type(elem) is float:
+                if elem > max_val:
+                    max_val = elem
+
+        return max_val
+
 
 class Node:
     def __init__(self, value):
