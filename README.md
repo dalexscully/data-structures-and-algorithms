@@ -36,3 +36,4 @@ To run your tests
 - [stack queue brackets](python/docs/stack_queue_brackets/README.md)
 - [Binary Tree and BST Implementation](python/docs/trees/README.md)
 - [Tree-max](python/docs/tree_max/README.md)
+- [Tree breadth first](python/docs/tree_breadth_first/README.md)
