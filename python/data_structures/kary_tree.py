@@ -20,6 +20,33 @@ class KaryTree:
 
         return collection
 
+    def clone(self):
+        """
+        returns a "shallow" copy of the current tree as a new tree.
+        Very handy for cases where you don't want to modify the original tree.
+        """
+        if not self.root:
+            return KaryTree()
+
+        def walk(source_root, clone_root):
+            """
+            recursive method to clone Nodes
+            """
+            if not source_root:
+                return
+
+            for source_child in source_root.children:
+                clone_child = Node(source_child.value)
+                clone_root.children.append(clone_child)
+                walk(source_child, clone_child)
+
+        clone_tree = KaryTree()
+
+        clone_tree.root = Node(self.root.value)
+        walk(self.root, clone_tree.root)
+
+        return clone_tree
+
 
 class Node:
     """K-Ary Tree Node"""

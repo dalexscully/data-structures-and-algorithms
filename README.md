@@ -37,3 +37,4 @@ To run your tests
 - [Binary Tree and BST Implementation](python/docs/trees/README.md)
 - [Tree-max](python/docs/tree_max/README.md)
 - [Tree breadth first](python/docs/tree_breadth_first/README.md)
+- [Tree fizz buzz](python/docs/tree_fizz_buzz/README.md)
