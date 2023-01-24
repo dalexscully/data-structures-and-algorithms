@@ -3,7 +3,7 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 
 ## Whiteboard Process
 ![Whiteboard Image](./array_binary_search.png)
-
+![Whiteboard Image](./array_binary_search%20copy.png)
 ## Approach & Efficiency
 I used replit to find the appropriate approach on the sorted binary search solutions.
 
