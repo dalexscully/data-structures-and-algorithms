@@ -15,7 +15,7 @@ If you have not already done so, run `npm install` from within this folder to se
 To run your tests
 
 - Change to the `javascript` folder
-- run `npm test` to run all of the tests
+- run `npm test` to run all the tests
 - run `npm test ##` to only run tests for challenge ## (i.e. 01)
 
 ### 401 Data Structures, Code Challenges
@@ -39,3 +39,4 @@ To run your tests
 - [Tree breadth first](python/docs/tree_breadth_first/README.md)
 - [Tree fizz buzz](python/docs/tree_fizz_buzz/README.md)
 - [Insertion Sort](python/docs/array_binary_search/README.md)
+- [Merge Sort](python/docs/merge_sort/README.md)
