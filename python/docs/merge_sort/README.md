@@ -9,6 +9,6 @@ The merge step involves comparing two subarrays at a time, looking at the front 
 ![Whiteboard Image](./merge_sort.png)
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-Multiple merge steps of multiple subarrays yield a fully sorted array. Here is the code in Python (note that arrays in Python are called lists, so here the variable lst is used to represent the input array/list):
+Multiple merge steps of multiple subarrays yield a fully sorted array. Here is the code in Python (note that arrays in Python are called lists, so here the variable lst is used to represent the input array/list): Hey men!
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
