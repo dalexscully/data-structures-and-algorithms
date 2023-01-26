@@ -1,6 +1,8 @@
-## Movie Sort
+# Code Challenge: Movie Sort
 
-### About
+## Author: Domaine Scully
+
+### Overview
 
 This file implements two specialized sorting functions that can sort movies alphabetically by title (excluding
 leading A's, An's, or The's) or by year. The functions take a data structure which is a list of dictionaries. Each
