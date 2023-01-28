@@ -41,3 +41,4 @@ To run your tests
 - [Insertion Sort](python/docs/array_binary_search/README.md)
 - [Merge Sort](python/docs/merge_sort/README.md)
 - [Movie Sort](python/docs/movie_sort/README.md)
+- [Hash Table Implementation](python/docs/hashtable/README.md)
