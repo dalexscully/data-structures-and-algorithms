@@ -74,7 +74,8 @@ class Hashtable:
 
 if __name__ == "__main__":
     ht_1 = Hashtable()
-    ht_1.set('name', 'Adam')
+    ht_1.set('name', 'ADAM')
     print(ht_1.get('name'))
     print(ht_1.has('name'))
     print(ht_1.keys())
+
