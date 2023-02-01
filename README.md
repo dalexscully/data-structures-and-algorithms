@@ -43,3 +43,4 @@ To run your tests
 - [Movie Sort](python/docs/movie_sort/README.md)
 - [Hash Table Implementation](python/docs/hashtable/README.md)
 - [HasHmap repeated word](python/docs/hashtable_repeated_word/README.md)
+- [Tree intersection](python/docs/tree_intersection/README.md)
