@@ -45,3 +45,4 @@ To run your tests
 - [HasHmap repeated word](python/docs/hashtable_repeated_word/README.md)
 - [Tree intersection](python/docs/tree_intersection/README.md)
 - [Hashtable left join](python/docs/hashtable_left_join/README.md)
+- [Graph](python/docs/graph/README.md)
