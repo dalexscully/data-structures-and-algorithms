@@ -40,4 +40,4 @@ To run your tests
 - [Tree fizz buzz](python/docs/tree_fizz_buzz/README.md)
 - [Insertion Sort](python/docs/array_binary_search/README.md)
 - [Merge Sort](python/docs/merge_sort/README.md)
-- [Movie Sort](python/docs/movie_sort/README.md)
+- [Movie Sort](sorting/movie_sort/README.md)
