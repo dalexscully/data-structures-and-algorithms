@@ -1,25 +1,18 @@
-# Code Challenge: Movie Sort
+# Challenge Summary
+<!-- Description of the challenge -->
+Write a function that sorts movies by the most recent year first and another function that will sort the movies alphabetically by title, but will ignore any leading "A's, "An"s or "The"s.
+## Whiteboard Process
+<!-- Embedded whiteboard image -->
+![Whiteboard](./movie_sort.png)
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+The approach I took for sorting the movies by most recent year was dividing the movie list into smaller lists, sorting each list by the value of the key year, and then merging the sorted list back together to form the final sorted listed.
 
-## Author: Domaine Scully
+The approach I took for sorting the movies alphabetically was first creating two helper functions. The first one strip title prefix removes the prefixes to be ignored from the title. The second one compares the title strings. We then divide the movie list into smaller lists, sorting each list by the value of the key title, and then merging the sorted list back together to form the final sorted listed...
 
-### Overview
+Big O:
 
-This file implements two specialized sorting functions that can sort movies alphabetically by title (excluding
-leading A's, An's, or The's) or by year. The functions take a data structure which is a list of dictionaries. Each
-dictionary represents movie data and includes a title, year, and genre key. The functions return a list of just the
-titles.
+Time: O(n log n) since this is a recursive sorting algorithm
 
-### Functions
-
-year_sort() - takes a list of movie dictionaries, returns a list of movie titles from most recent to least recent
-
-title_sort() - takes a list of movie dictionaries, returns a list of movie titles in alphabetical order
-
-### Run
-
-python3 sorting/movie_sort/movie_sort.py
-
-This command runs the two functions on a supplied list of movie dictionaries and outputs results to the console.
-
-
+Space: O(n) since in merge sort all elements are copied into an auxiliary array. So N auxiliary space is required for merge sort.
 
