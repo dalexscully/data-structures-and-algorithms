@@ -15,7 +15,7 @@ If you have not already done so, run `npm install` from within this folder to se
 To run your tests
 
 - Change to the `javascript` folder
-- run `npm test` to run all of the tests
+- run `npm test` to run all the tests
 - run `npm test ##` to only run tests for challenge ## (i.e. 01)
 
 ### 401 Data Structures, Code Challenges
@@ -27,6 +27,7 @@ To run your tests
 - [Array Reverse](python/docs/array_reverse/README.md)
 - [Array Insert Shift](python/docs/array_insert_shift/README.md)
 - [Array binary search](python/docs/array_binary_search/README.md)
+- [Linked List](python/docs/linked_list/READEME.md)
 - [Linked list insertions](python/docs/linked_list_insertions/README.md)
 - [Linked list kth](python/docs/linked_list_kth/README.md)
 - [Linked list zip](python/docs/linked_list_zip/README.md)
@@ -39,3 +40,10 @@ To run your tests
 - [Tree breadth first](python/docs/tree_breadth_first/README.md)
 - [Tree fizz buzz](python/docs/tree_fizz_buzz/README.md)
 - [Insertion Sort](sorting/insertion/README.md)
+- [Merge Sort](python/docs/merge_sort/README.md)
+- [Movie Sort](python/docs/movie_sort/README.md)
+- [Hash Table Implementation](python/docs/hashtable/README.md)
+- [HasHmap repeated word](python/docs/hashtable_repeated_word/README.md)
+- [Tree intersection](python/docs/tree_intersection/README.md)
+- [Hashtable left join](python/docs/hashtable_left_join/README.md)
+- [Graph](python/docs/graph/README.md)
