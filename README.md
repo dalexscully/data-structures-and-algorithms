@@ -39,4 +39,4 @@ To run your tests
 - [Tree breadth first](python/docs/tree_breadth_first/README.md)
 - [Tree fizz buzz](python/docs/tree_fizz_buzz/README.md)
 - [Insertion Sort](python/docs/array_binary_search/README.md)
-- [Merge Sort](python/docs/merge_sort/README.md)
+- [Merge Sort](sorting/merge/README.md)
