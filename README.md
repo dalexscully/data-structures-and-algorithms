@@ -38,4 +38,4 @@ To run your tests
 - [Tree-max](python/docs/tree_max/README.md)
 - [Tree breadth first](python/docs/tree_breadth_first/README.md)
 - [Tree fizz buzz](python/docs/tree_fizz_buzz/README.md)
-- [Insertion Sort](python/docs/array_binary_search/README.md)
+- [Insertion Sort](sorting/insertion/README.md)
