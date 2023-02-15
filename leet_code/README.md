@@ -12,3 +12,4 @@
 4. [Adjacent Duplicates](adjacent_duplicates/README.md)
 5. [Unique Characters](unique_character/README.md)
 6. [Reversed Singly linked List](reverse_singly_list/README.md)
+7. [Count Students Left](./count_students_left/README.md)
