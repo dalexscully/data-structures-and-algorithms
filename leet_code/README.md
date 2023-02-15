@@ -13,3 +13,5 @@
 5. [Unique Characters](unique_character/README.md)
 6. [Reversed Singly linked List](reverse_singly_list/README.md)
 7. [Count Students Left](./count_students_left/README.md)
+8. [First Unique Character](./first_unique_character/README.md)
+9.
