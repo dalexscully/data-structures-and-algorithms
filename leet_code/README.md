@@ -10,3 +10,4 @@
 2. [Merge Between Linked List](merge_between_linkedlist/README.md)
 3. [Reverse Linked List](reverse_linked_list/README.md)
 4. [Adjacent Duplicates](adjacent_duplicates/README.md)
+5. [Unique Characters](unique_character/README.md)
