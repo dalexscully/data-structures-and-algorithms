@@ -12,5 +12,5 @@ I found the unique character in the list without space and used the Hashtable to
 
 Big O:
 
-- Space: O(nun)
+- Space: O(n)
 - Time: O(1)
