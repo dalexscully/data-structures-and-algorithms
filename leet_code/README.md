@@ -15,3 +15,4 @@
 7. [Count Students Left](./count_students_left/README.md)
 8. [First Unique Character](./first_unique_character/README.md)
 9. [Path Sum](./path_sum/README.md)
+10. [Balance Tree](./balance_tree/README.md)
