@@ -18,4 +18,4 @@
 10. [Balance Tree](./balance_tree/README.md)
 11. [Circular Linked List](./circular_linked_list/README.md)
 12. [Odometer Linked List](./odometer_linked_list/README.md)
-13. [trip Planner](./trip_planner/README.md)
+13. [Trip Planner](./trip_planner/README.md)
